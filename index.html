@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#2196f3">
+  <title>Push Notification Example</title>
+  <!-- Path to Framework7 CSS -->
+  <link rel="stylesheet" href="framework7-bundle.min.css">
+</head>
+<body>
+  <!-- App root element -->
+  <div id="app">
+    <!-- Main view -->
+    <div class="view view-main">
+      <!-- Page for Push Notification -->
+      <div data-name="home" class="page">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="title">Push Notification Example</div>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="block">
+            <p>Click the button below to request notification permission and enable push notifications:</p>
+            <button id="request-access-button" class="button button-fill">Request Notification Access</button>
+            <button id="send-notification-button" class="button button-fill">Send Test Notification</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Path to Framework7 JS -->
+  <script src="framework7-bundle.min.js"></script>
+  <script src="app.js"></script> <!-- Custom JS file -->
+</body>
+</html>
